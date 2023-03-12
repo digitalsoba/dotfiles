@@ -11,3 +11,4 @@ ohmyzsh/ohmyzsh path:plugins/vault
 # plugins
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-syntax-highlighting
+
