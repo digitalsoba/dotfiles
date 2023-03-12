@@ -8,6 +8,11 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
 alias k="kubectl"
 
+{{ if eq .chezmoi.os "darwin" -}}
+# MacOS based aliases
+alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+{{ end -}}
+
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
