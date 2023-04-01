@@ -10,4 +10,3 @@ ohmyzsh/ohmyzsh path:plugins/kubectl
 # plugins
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-syntax-highlighting
-
